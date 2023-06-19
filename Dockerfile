@@ -1,4 +1,4 @@
-FROM ghcr.io/stellaritysoftware/openjdk11
+FROM ghcr.io/stellaritysoftware/openjdk8
 LABEL Description="atlassian sdk"
 
 ENV SDK_VERSION=8.2.8
