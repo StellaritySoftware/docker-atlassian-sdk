@@ -6,7 +6,7 @@ ENV SDK_VERSION=8.2.8
 # install packages
 RUN apt-get update &&\
     apt-get install -y --no-install-recommends curl &&\
-    curl https://packages.atlassian.com/debian/atlassian-sdk-deb/deb-archive/atlassian-plugin-sdk_${SDK_VERSION}_all.deb -o /tmp/sdk.deb &&\
+    curl -L https://packages.atlassian.com/debian/atlassian-sdk-deb/deb-archive/atlassian-plugin-sdk_${SDK_VERSION}_all.deb -o /tmp/sdk.deb &&\
     dpkg -i /tmp/sdk.deb &&\
     rm /tmp/sdk.deb &&\
     rm -rf /var/lib/apt/lists/*
