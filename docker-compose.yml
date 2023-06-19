@@ -2,7 +2,7 @@ version: '3'
 services:
   atlassian-sdk:
     build: .
-    image: stellarity/atlassian-sdk
+    image: StellaritySoftware/atlassian-sdk
     ports:
       - "6990:6990"
       - "7990:7990"
