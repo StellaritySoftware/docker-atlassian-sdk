@@ -1,1 +1,3 @@
-# docker-atlassian-sdk [![Docker Build Status](https://img.shields.io/docker/build/stellarity/atlassian-sdk.svg)](https://hub.docker.com/r/stellarity/atlassian-sdk)
+# docker-atlassian-sdk 
+
+[![Docker](https://github.com/StellaritySoftware/docker-atlassian-sdk/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/StellaritySoftware/docker-atlassian-sdk/actions/workflows/docker-publish.yml)
